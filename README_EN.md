@@ -25,13 +25,13 @@ Fork this repository to your storage account and edit the `config.env` file with
 
 Change this to your Kernel repository address.
 
-For example - https://github.com/Diva-Room/Miku_kernel_xiaomi_wayne
+For example: `https://github.com/Diva-Room/Miku_kernel_xiaomi_wayne`
 
 ### Kernel Source Branch
 
 Change this to your Kernel branch.
 
-For example - TDA
+For example: `TDA`
 
 ### Kernel Config
 
@@ -41,7 +41,7 @@ For example: `vendor/wayne_defconfig`
 
 ### Arch
 
-For example: arm64
+For example: `arm64`
 
 ### Kernel Image Name
 
@@ -190,7 +190,7 @@ Build boot.img, and you need to provide a `Source boot image`.
 
 As the name suggests, it provides a boot image source system that can boot normally and requires a direct chain, preferably from the same kernel source and AOSP device tree as your current system. Ramdisk contains the partition table and init, without which the compiled image will not boot up properly.
 
-For example: https://raw.githubusercontent.com/xiaoleGun/KernelSU_action/main/boot/boot-wayne-from-Miku-UI-latest.img
+For example: `https://raw.githubusercontent.com/xiaoleGun/KernelSU_action/main/boot/boot-wayne-from-Miku-UI-latest.img`
 
 ## Thanks
 
