@@ -1,10 +1,58 @@
 # Kernel Build Action For Lancelot & Merlin
 
-## Usage
+## Step-by-step guide to use
+<details>
+  <summary><i>Click to open</i></summary>
 
-> All variables in the `config.env` file are only checked for `true`.
+>### 1.
+>![01](guide/images/01.png)
 
-> Once the compilation is successful, AnyKernel3 will be uploaded in the `Action` and the device check has been disabled. Please flash it in recovery.
+>### 2.
+>![02](guide/images/02.png)
+> **Note:** Unselect `Copy the kernel-tree_lancelot branch only` if you are building for merlin.
+
+>### 3.
+>![03](guide/images/03.png)
+
+>### 4.
+>![04](guide/images/04.png)
+
+>### 5.
+>![05](guide/images/05.png)
+
+>### 6.
+>![06](guide/images/06.png)
+
+>### 7.
+>![07](guide/images/07.png)
+
+>### 8.
+>![08](guide/images/08.png)
+
+>### 9.
+>![09](guide/images/09.png)
+
+>### 10.
+>![10](guide/images/10.png)
+
+>### 11.
+>![11](guide/images/11.png)
+> **Note:** Reload this page if the yellow circle does not appear.
+
+>### 12.
+>![12](guide/images/12.png)
+
+>### 13.
+>![13](guide/images/13.png)
+
+>### 14.
+>![14](guide/images/14.png)
+  
+</details>
+<br>
+
+## Options Guide
+> All options are located in [config.env](config.env)
 
 ### KERNEL_SOURCE
 
