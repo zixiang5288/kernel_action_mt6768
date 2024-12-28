@@ -135,6 +135,12 @@ This option provides support for overlayfs. Inject parameters into defconfig aut
 
 This option provides fix for https://github.com/bmax121/APatch/issues/400.
 
+### OLD_ANDROID_SUPPORT
+
+> There is no official support for older Android and MIUI, and bug reports will not be accepted on them.
+
+This option provides support for MIUI 12.5 and custom ROMs based on Android 11 through 12, but breaks support for Android 13 and above.
+
 
 ### USE_CUSTOM_CLANG
 
